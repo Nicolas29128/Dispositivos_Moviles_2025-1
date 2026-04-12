@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EJERCICIO_2</string>
+    <!--creamos las plaabras que tendran los botones, esto con fin de tener buenas practicas. Resaltar
+        que en mensaje de play es de reproducri, solo que por el espacio del texto y por conservar
+        la armonia se puso una plabra mas reducida como play; de ahi los demas mensajes si hacen
+        alusion a su funcionalidad -->
+    <string name="msgreproducir">PLAY</string>
+    <string name="msgatras">ATRAS</string>
+    <string name="msgpausa">PAUSAR</string>
+    <string name="msgsiguiente">SIGUIENTE</string>
+    <string name="msgdetener">DETENER</string>
+    <string name="msgaleatorio">ALEATORI</string>
+</resources>

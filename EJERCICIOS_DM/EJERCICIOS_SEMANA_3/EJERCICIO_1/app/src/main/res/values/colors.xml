@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    // se le agrego un tipo de color mas para el contraste del fondo
+    <color name = "fondo">#9b9b9b</color>
+</resources>

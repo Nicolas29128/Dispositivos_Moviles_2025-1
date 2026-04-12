@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    android:gravity="center">
+    <!--en esta parte creamos lo que sea la visualizacion de la imagen "Yoshi" ademas tambien
+        tamaño, el centrado, y para lo que seria el clic y el mensaje del toast,
+         pero este lo tenemos en String.xml. Tambien adicinar que el color del fondo esta en
+         colors.xml -->
+    <ImageView
+        android:id="@+id/imagenPrueba1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/imagenyoshi"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!--en esta parte creamos lo que sea la visualizacion del boton que nos aydua a la reprooduccion
+        del sonido y para lo que seria el clic en el mismo boton, tambien mencianar que le mensaje
+        lo que dice el el boton esta en el mimso lugar que el mensaje del toast (string.xml) -->
+    <Button
+        android:id="@+id/btnSonido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mensaje_boton1"
+        app:layout_constraintTop_toBottomOf="@id/imagenPrueba1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

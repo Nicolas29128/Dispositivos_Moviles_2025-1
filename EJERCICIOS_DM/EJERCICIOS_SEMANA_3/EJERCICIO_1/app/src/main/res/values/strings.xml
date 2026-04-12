@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EJERCICIO_1</string>
+    <string name="mensaje_img1">\"¡Hurra! Me llamo Yoshi\"</string>
+    <string name="mensaje_boton1">Preciona el boton</string>
+</resources>

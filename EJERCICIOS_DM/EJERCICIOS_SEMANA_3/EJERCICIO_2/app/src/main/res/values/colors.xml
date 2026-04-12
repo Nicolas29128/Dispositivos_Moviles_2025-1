@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- cremos un nuevo tipo de color que usara en lo que es el fondo de la aplicacion (rojo
+         granate)-->
+    <color name="fondomusica">#800000 </color>
+</resources>
