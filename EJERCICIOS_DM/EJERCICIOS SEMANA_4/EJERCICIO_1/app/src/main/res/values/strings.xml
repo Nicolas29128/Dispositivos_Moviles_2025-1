@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EJERCICIO_1_PERFIL_USUARIO</string>
+    <string name="msg_nombre">"Ingrese su nombre: "</string>
+    <string name="msg_edad">"Ingrese su edad: "</string>
+    <string name="msg_ciudad">"Ingrese su ciudad: "</string>
+    <string name="msg_correo">"Ingrese su correo: "</string>
+    <string name="msg_continuar">Continuar</string>
+    <string name="txt_resumen">"Los datos son: "</string>
+    <string name="msg_editar">Volver a editar</string>
+    <string name="app_confirmar">Confirmar</string>
+</resources>

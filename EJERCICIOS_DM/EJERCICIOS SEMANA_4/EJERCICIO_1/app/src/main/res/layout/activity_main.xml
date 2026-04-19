@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <!--primero creamos los edittexts que son los espacios que nos permitira ingresar los datos
+        despues. creamos los siguientes edittexts (para nombre, edad, ciudad y corre) cada uno de
+        estos campos debe llenarse con su respectivo dato del usuario. Por ultimo creamos el boton
+        continuar, cuya funcion es que nos lleve a la otra patalla-->
+    <EditText
+        android:id="@+id/nombre"
+        android:hint="@string/msg_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edad"
+        android:hint="@string/msg_edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/ciudad"
+        android:hint="@string/msg_ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/correo"
+        android:hint="@string/msg_correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/continuar"
+        android:text="@string/msg_continuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

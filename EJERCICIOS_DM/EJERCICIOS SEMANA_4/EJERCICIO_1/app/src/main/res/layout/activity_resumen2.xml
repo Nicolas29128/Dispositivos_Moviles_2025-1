@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".ResumenActivity2">
+
+    <!--primero creamos los textview que es donde podremos visualizar los resultados de los datos
+        ingresados por el usuario, despues creamos dos botones uno "Confirmar" que su finalidad es
+        confirma que los datos estan bien, y el segundo boton es "Editar " como dice su nombre sirve
+        para editar lso datos anteriormente ingresados. -->
+    <TextView android:id="@+id/txtResumen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_resumen"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:text="@string/app_confirmar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:text="@string/msg_editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
